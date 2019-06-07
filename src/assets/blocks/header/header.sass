@@ -1,0 +1,46 @@
+.header
+    background-color: #ffffff
+    &__container
+        padding: 0 75px
+    &__nav
+        padding: 20px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+    .nav
+        &__contacts
+            display: flex
+            align-items: center
+        &__logo
+        
+        &__phone
+            font-weight: bold
+            margin-left: 60px
+
+        &__menu
+            display: flex
+
+        
+            .menu
+
+                &__item
+                    margin: 0 15px
+                    &_active
+                        a
+                            color: #DA1E1D
+                            position: relative
+                            &::after    
+                                content: ''
+                                position: absolute
+                                width: 8px
+                                height: 8px
+                                border-radius: 50%
+                                background-color: #DA1E1D
+                                bottom: -20px
+                                left: calc(50% - 4px)
+
+                &__link
+                    font-weight: bold
+
+
+            

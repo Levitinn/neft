@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="29px" viewBox="0 0 75 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-24" transform="translate(-93.000000, -492.000000)">
+            <g id="Group-10" transform="translate(93.000000, 492.000000)">
+                <g id="Group" transform="translate(0.000000, -0.000000)">
+                    <path d="M10.9955102,2.07635189 L35.7133092,-4.61852778e-13 L63.9136808,2.1534294 C70.168482,2.63105689 75,7.84558405 75,14.118595 L75,16.0923575 C75.0000033,22.4211352 70.0849669,27.6620053 63.7692046,28.0676822 C53.359803,28.7363037 44.0078379,28.3804097 35.7133092,27 C27.9789379,25.712814 19.895619,25.3164383 11.4633526,25.8108727 C5.49267023,26.1609742 0.368665931,21.6045893 0.018568932,15.6339067 C0.00619229843,15.422831 -1.90044288e-13,15.2114382 -1.91846539e-13,15 L-1.91846539e-13,14.0342363 C-1.90834117e-13,7.79623405 4.77940104,2.59851934 10.9955102,2.07635189 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <circle id="Oval" fill="#D80600" cx="64" cy="15" r="5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

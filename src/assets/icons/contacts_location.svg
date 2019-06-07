@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="50px" viewBox="0 0 44 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>-g-Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-25" transform="translate(-484.000000, -659.000000)">
+            <g id="-g-Group-3" transform="translate(484.000000, 659.000000)">
+                <path d="M22,50 C20.178462,46.7066272 17.2222748,44.0753897 13.1314383,42.1062875 C5.49393367,38.4300157 0,30.9705549 0,21.9827586 C0,9.84201628 9.8497355,0 22,0 C34.1502645,0 44,9.84201628 44,21.9827586 C44,30.7364083 37.808589,38.1544681 30.6400211,42.1062875 C26.1187454,44.5987331 23.2387384,47.2299706 22,50 Z" id="Combined-Shape-Copy" fill="#DA1E1D"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="21.5" cy="21.5" r="9.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="530px" viewBox="0 0 410 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M62.9837948,3.93341045 C134.921295,-4.91676306 287.984375,3.93341045 336.691406,3.93341045 C369.16276,3.93341045 384.820313,28.9178362 383.664063,78.8866878 C391.495408,293.558129 391.495408,421.145257 383.664063,461.64807 C378.127087,490.284668 348.572196,499.078285 312.542969,499.078285 C276.513742,499.078285 251.102795,507.466309 182.411787,508.50193 C107.171162,509.636297 46.9105563,511.212402 32.5859375,508.50193 C10.8619792,504.391372 0,485.908286 0,453.052672 L0.116607349,59.8774071 C1.40751038,27.5787885 22.3632395,8.9307896 62.9837948,3.93341045 Z" id="path-1"></path>
+        <filter x="-4.1%" y="-2.7%" width="108.2%" height="106.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.779636549   0 0 0 0 0.779636549   0 0 0 0 0.779636549  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-29" transform="translate(-284.000000, -258.000000)">
+            <g id="-g-Group-3" transform="translate(294.132812, 266.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

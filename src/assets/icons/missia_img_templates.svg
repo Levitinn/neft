@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="571px" height="395px" viewBox="0 0 571 395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M70.1562764,9.69405738 C114.835411,0.267633232 181.605122,-2.87434927 275.567154,2.90390906 C350.523055,7.51337256 421.82878,3.40912079 499.383199,2.90390906 C546.497962,2.59698998 570.055343,63.7068425 570.055343,186.233466 C576.03817,315.786354 553.602569,380.562797 502.748539,380.562797 C426.467494,380.562797 84.662608,406.228935 31.1622835,389.118177 C-11.2339501,375.558787 1.93292934,170.92563 1.93292934,74.4812922 C1.93292934,14.2245437 48.6827879,14.2245437 70.1562764,9.69405738 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-17" transform="translate(-172.000000, -204.000000)">
+            <g id="-g-Bitmap" transform="translate(172.000000, 204.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

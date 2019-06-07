@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="401px" height="470px" viewBox="0 0 401 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M74.2835735,48.1420882 C240.911279,31.2728285 313.309949,25.7141036 330.277792,25.4179288 C347.283353,25.1210957 373.292953,31.1873526 377.34533,54.7371713 C381.397706,78.2869901 394.233771,118.055968 402.625641,223.055968 C411.017511,328.055968 428.166327,406.80884 406.276172,432.194742 C384.386018,457.580645 323.943523,455.398679 264.796214,460.900779 C228.059725,464.318143 194.383341,471.681005 109.279691,479.12661 C98.5519078,480.065169 83.0983972,472.015648 80.4182629,441.381573 C78.6315067,420.958856 66.1302151,354.930903 42.914388,243.297715 L30.4266183,87.1426737 C33.8444809,63.756291 48.463466,50.7560959 74.2835735,48.1420882 Z" id="path-1"></path>
+        <filter x="-4.1%" y="-3.1%" width="108.3%" height="107.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.779636549   0 0 0 0 0.779636549   0 0 0 0 0.779636549  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="Artboard-Copy-29" transform="translate(-708.000000, -352.000000)">
+            <g id="-g-Group-3-Copy" transform="translate(908.481108, 584.794999) rotate(7.000000) translate(-908.481108, -584.794999) translate(684.981108, 332.794999)">
+                <g id="Rectangle" transform="translate(223.697895, 252.302983) scale(-1, 1) rotate(8.000000) translate(-223.697895, -252.302983) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+.offer-work
+       
+    &__container
+
+    &__title
+        font-size: 50px
+        font-weight: bold
+        text-align: center
+        font-family: 'TTNorms'
+    &__link 
+        display: flex
+        font-family: 'TTN'
+        max-width: 400px
+        width: 100%
+        color: #ffffff
+        font-size: 25px
+        justify-content: center
+        margin: 0 auto  
+        padding: 27px 0
+        background-image: url('../icons/button_red.svg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            width: calc(100% - 100px)
+            height: 2px
+            background-color: #ffffff
+            bottom: 20px
+            left: 65px
+        &::after
+            content: ''
+            position: absolute
+            width: 21px
+            height: 31px
+            background-image: url('../icons/location.svg')
+            background-repeat: no-repeat
+            background-size: contain  
+            right: 35px
+            bottom: calc(50% - 15px)      
