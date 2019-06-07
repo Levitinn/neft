@@ -1,13 +1,22 @@
 .offer-work
-       
-    &__container
+    height: calc(100vh - 94px)
+    background-image: url('../images/bgnew.png')
+    background-repeat: no-repeat
+    background-size: cover
+    box-sizing: border-box
+    background-position: center
+    padding-top: 140px
+    &__container    
 
     &__title
         font-size: 50px
-        // font-weight: bold
+        font-weight: 900
         text-align: center
         font-family: 'TTN'
-        font-weight: 300
+        
+        
+        text-transform: uppercase
+        margin-bottom: 25px
     &__link 
         display: flex
         font-family: 'TTN'
@@ -41,3 +50,63 @@
             background-size: contain  
             right: 35px
             bottom: calc(50% - 15px)      
+    .main__invite
+        max-width: 585px
+        background-image: url(../icons/check_big.svg)
+        background-repeat: no-repeat
+        background-size: cover
+        box-sizing: border-box
+        padding: 50px 58px
+        
+        .invite
+
+            &__top-title
+                display: inline-block
+                font-size: 13px
+                color: rgb(218,30,29)
+                text-transform: uppercase
+                font-weight: bold
+                margin-bottom: 10px
+            &__title
+                font-size: 38px
+                font-family: 'YesevaOne'
+                max-width: 360px
+                margin-bottom: 10px
+            &__form
+                
+                .form
+
+                    &__input
+                        border: none
+                        border-bottom: 2px solid #000000
+                        padding: 10px 0
+
+                        &_name
+                            width: 100%
+                        &_date
+                            max-width: 130px
+                            margin-right: 10px
+                        &_country
+                            width: 100%
+                            max-width: 325px
+                        &_tel
+                            width: 100%
+                            max-width: 150px
+                            margin-right: 10px
+                        &_time
+                            max-width: 150px
+                        &_address
+                            width: 100%
+            &__select-wrap
+                display: flex
+            &__select
+                width: 48%
+                margin-right: 10px
+                background-color: rgb(214,222,226)
+                color: #000000
+                border-radius: 3px
+                appearance: none
+                font-size: 14px
+                padding: 10px
+
+            
