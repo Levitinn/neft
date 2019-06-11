@@ -1,0 +1,167 @@
+.main__invite
+    max-width: 585px
+    background-image: url(../icons/check_big.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    box-sizing: border-box
+    padding: 50px 45px
+    position: absolute
+    right: 70px
+    bottom: -510px
+    cursor: pointer
+    transition: bottom .3s ease
+    &-active
+        bottom: 0
+    .invite
+
+        &__top-title
+            display: inline-block
+            font-size: 13px
+            color: rgb(218,30,29)
+            text-transform: uppercase
+            font-weight: bold
+            margin-bottom: 10px
+        &__title
+            font-size: 38px
+            font-family: 'YesevaOne'
+            max-width: 360px
+            margin-bottom: 10px
+        &__form
+            margin-top: 50px
+            .form
+
+                &__input
+                    border: none
+                    border-bottom: 2px solid rgb(214,222,226)
+                    padding: 10px 0
+                    margin-top: 20px
+                    outline: none
+                    &:focus
+                        border-color: #000000
+
+                    &_name
+                        width: 100%
+                    &_date
+                        max-width: 156px
+                        margin-right: 10px
+                    &_country
+                        width: 100%
+                        max-width: 325px
+                    &_tel
+                        width: 100%
+                        max-width: 150px
+                        margin-right: 10px
+                    &_time
+                        max-width: 150px
+                    &_address
+                        width: 100%
+                    &_info
+                        width: 100%
+                &__file-wrap
+                    label
+                        display: flex
+                        width: 100%
+                        color: rgba(0, 0, 0, 0.56)
+                        align-items: center
+                        text-align: right
+                        padding: 10px 0
+                        border-bottom: 2px solid #d6dee2
+                        cursor: pointer
+                        .uploaded__title
+                            display: inline-block
+                            font-size: 15px
+                            font-weight: bold
+                            background-color: rgb(214,222,226)
+                            padding: 8px 21px 
+                            border-radius: 3px
+                            border: 1px solid #d6dee2
+                            margin-left: auto
+                            &:active
+                                border-color: rgb(169, 169, 169)
+
+                    .form__input_file
+                        display: none
+            .form__label-wrap
+                margin-top: 20px
+                .form__input-hide
+                    display: none
+                .form__input-hide:checked + .label__accept::before
+                    background-image: url('../icons/checkbox.svg')
+                    background-repeat: no-repeat
+                    background-size: cover
+                    background-position: center
+
+                .label__accept
+                    display: block
+                    font-size: 15px
+                    color: rgba(0, 0, 0, 0.61)
+                    position: relative
+                    padding-left: 30px
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 15px
+                        height: 15px
+                        border-radius: 3px
+                        background-color: rgb(216,216,216)
+                        left: 0
+
+
+
+                
+        &__select-wrap
+            display: flex
+            .select-wrap
+                &__item
+                    width: 50%
+                    margin-right: 10px
+                    position: relative
+                    &::after
+                        content: ''
+                        position: absolute
+                        background-image: url('../icons/arrow-down.svg')
+                        background-repeat: no-repeat
+                        background-size: contain
+                        width: 10px
+                        height: 5px
+                        top: 50%
+                        right: 12px
+                    &:last-child
+                        margin-right: 0
+
+
+        &__select
+            width: 100%
+            background-color: rgb(214,222,226)
+            color: #000000
+            font-weight: bold
+            border-radius: 3px
+            appearance: none
+            font-size: 14px
+            padding: 14px 10px
+            position: relative
+        &__btn  
+            display: inline-block
+            width: 100%
+            max-width: 210px
+            box-sizing: border-box
+            border-radius: 3px
+            padding: 17px 0 17px 25px
+            color: #ffffff
+            font-size: 17px
+            background-color: rgb(218,30,29)    
+            position: relative
+            margin-top: 35px
+            &::after
+                content: ''
+                position: absolute
+                width: 12px
+                height: 17px
+                background-image: url('../icons/next_ico_images.svg')
+                background-repeat: no-repeat
+                right: 20px
+                
+
+
+
+        

@@ -1,0 +1,32 @@
+.main__invite
+            span.invite__top-title Анкета
+            h2.invite__title Приходите к нам работать
+            form.invite__form(action="#")
+                .invite__select-wrap
+                    .select-wrap__item
+                        select.invite__select(name="position")
+                            option(value="Менеджер ресторана") Менеджер ресторана
+                            option(value="Уборщик") Уборщик
+                            option(value="Самилье ") Самилье
+                    .select-wrap__item
+                        select.invite__select(name="position")
+                            option(value="АЗС №19") АЗС №19
+                            option(value="АЗС 234") АЗС 234
+                            option(value="АЗС 235") АЗС 235
+                input.form__input.form__input_name(type="text" name='name' placeholder='Представьтесь, пожалуйста')
+                input.form__input.form__input_date(type="text" name='date' placeholder='Дата рождения')
+                input.form__input.form__input_country(type="text" name='country' placeholder='Страна')
+                input.form__input.form__input_tel(type="text" name='tel' placeholder='Телефон')
+                input.form__input.form__input_time(type="text" name='time' placeholder='Время для связи')
+                input.form__input.form__input_address(type="text" name='address' placeholder='Адрес')
+                .form__file-wrap.file-upload
+                    label(for="uploaded-file") Прикрепить резюме    
+                        span.uploaded__title Выбрать 
+                    input#uploaded-file.form__input.form__input_file(type="file" onchange='getFileName ();' name='file')
+                        
+                #file-name
+                input.form__input.form__input_info(type="text" name='info' placeholder='Дополнительная информация')
+                .form__label-wrap
+                    input#input-accept.form__input-hide(type="checkbox")
+                    label.label__accept(for="input-accept") Я согласен на обработку моих персональных данных (Политика о персональных данных)
+                a.invite__btn.form__btn(href="#") Отправить
