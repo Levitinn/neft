@@ -1,0 +1,184 @@
+.history
+    height: calc(100vh - 94px)
+    background-image: url('../icons/bg_yellow.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: bottom
+    box-sizing: border-box
+    padding-top: 35px 
+    &__container
+        padding: 0 700px 0 70px
+        margin: 0 auto
+
+    &__pagination
+        position: absolute
+        top: 50%
+        .pagination
+            
+            &__item
+                font-size: 13px
+                font-weight: bold
+                
+                background-repeat: no-repeat
+                background-size: 75px 25px
+                text-align: left
+                padding-left: 10px
+                line-height: 25px
+                width: 75px
+                height: 29px
+                position: relative
+                margin: 30px 0
+                &_active
+                    background-image: url('../icons/button_wight.svg')
+                    &::before
+                        background-color: rgb(216,6,0) !important
+                &::before
+                    content: ''
+                    position: absolute
+                    width: 10px
+                    height: 10px
+                    border-radius: 50%
+                    background-color: #ffffff
+                    right: 18px
+                    bottom: 11px
+                &::after
+                    content: ''
+                    position: absolute
+                    width: 6px
+                    height: 6px
+                    border-radius: 50%
+                    background-color: rgb(216,6,0)
+                    right: 20px
+                    bottom: 13px
+
+
+    &__slider
+        width: 100%
+        max-width: 810px
+        margin-top: 260px
+        position: relative
+        &::before
+            width: 100%
+            height: 135px
+            content: ''
+            position: absolute
+            background-image: url(../icons/img011.svg)
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: top    
+            top: -120px
+
+        .slick-arrow
+            position: absolute 
+            top: -115px
+            color: transparent
+            border: none
+            padding: 0
+            outline: none
+            
+
+        .slick-prev
+            left: 0     
+            width: 0
+            &::before
+                content: 'Назад'
+                color: #000000
+                position: absolute
+                font-weight: bold
+                left: 30px
+                top: 22px
+                font-size: 15px
+
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ''
+                background-image: url('../icons/prev.svg')
+                color: #000000
+                background-repeat: no-repeat
+                left: 0
+                top: 15px
+
+        .slick-next
+            right: 0
+            width: 0
+            
+            &::before
+                content: 'Вперед'
+                position: absolute
+                color: #000000
+                top: 25px
+                right: 20px
+                font-size: 15px
+                font-weight: bold
+                
+                 
+
+            &::after
+                width: 31px
+                height: 32px   
+                position: absolute
+                content: ''
+                color: #000000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: right
+                background-image: url('../icons/next.svg')
+                top: 20px
+                left: -20px
+                
+    &__title
+        font-size: 36px
+        font-family: 'YesevaOne'
+    .item
+        text-align: center
+
+        &__date
+            font-family: 'YesevaOne'
+            font-size: 220px
+            color: rgb(216,6,0)
+            position: relative
+            max-width: 570px
+            margin: 0 auto
+            margin-right: 140px
+        
+
+            
+            &::after
+                content: ''
+                width: 110px
+                height: 230px
+                background-image: url('../icons/img013.svg')
+                position: absolute
+                background-repeat: no-repeat
+                background-size: contain
+                width: 110px
+                height: 230px
+                right: -105px
+                bottom: -135px
+        &__content
+            display: flex
+            background-image: url('../icons/history_block.svg')
+            background-size: contain
+            background-repeat: no-repeat
+            padding: 30px 35px
+            max-width: 570px
+            height: 230px
+            box-sizing: border-box
+            margin: 0 auto
+            margin-right: 140px
+            align-items: center
+            .content
+                &__img
+                    max-width: 170px
+                    width: 100%
+                    height: 160px
+                    background-image: url('../images/history-item.png')
+                    background-repeat: no-repeat
+                    background-size: cover
+                    flex-shrink: 0
+                    margin-right: 20px
+                &__text
+                    padding: 20px 0
+                    line-height: 25px

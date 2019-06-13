@@ -1,4 +1,6 @@
 //=include ../blocks/header/header.js
+//=include ../blocks/history/history.js
+
 
 $(document).ready(function () {
     header('this is string to header.js')
