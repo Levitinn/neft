@@ -1,5 +1,6 @@
 //=include ../blocks/header/header.js
 //=include ../blocks/history/history.js
+//=include ../blocks/contacts/contacts-info.js
 
 
 $(document).ready(function () {

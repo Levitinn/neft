@@ -1,0 +1,88 @@
+.contacts
+    height: calc(100vh - 96px)
+    &__container
+        box-sizing: border-box
+        // height: calc(100vh - 126px)
+        
+    &__title
+        width: 100%
+        font-family: 'YesevaOne'
+        background-image: url(../icons/bg_red.svg)
+        background-repeat: no-repeat
+        background-size: cover
+        // padding: 35px  55px 0
+        padding: 35px 60px 55px 60px
+        h1
+            font-size: 36px 
+            color: #ffffff
+
+    &__map
+        height: calc(100vh - 220px)   
+        .map
+            width: 100%
+            height: 100%
+    .map__slider
+        width: 100%
+        max-width: 810px
+        margin-top: 260px
+        position: relative
+        .slick-arrow
+            position: absolute 
+            top: -115px
+            color: transparent
+            border: none
+            padding: 0
+            outline: none
+            cursor: pointer
+            
+
+        .slick-prev
+            left: 0     
+            width: 0
+            &::before
+                content: 'Назад'
+                color: #000000
+                position: absolute
+                font-weight: bold
+                left: 30px
+                top: 22px
+                font-size: 15px
+
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ''
+                background-image: url('../icons/prev.svg')
+                color: #000000
+                background-repeat: no-repeat
+                left: 0
+                top: 15px
+
+        .slick-next
+            right: 0
+            width: 0
+            
+            &::before
+                content: 'Вперед'
+                position: absolute
+                color: #000000
+                top: 25px
+                right: 20px
+                font-size: 15px
+                font-weight: bold
+                
+                 
+
+            &::after
+                width: 31px
+                height: 32px   
+                position: absolute
+                content: ''
+                color: #000000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: right
+                background-image: url('../icons/next.svg')
+                top: 20px
+                left: -20px
