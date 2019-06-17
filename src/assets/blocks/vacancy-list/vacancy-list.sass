@@ -1,0 +1,84 @@
+.vacancy-list
+    height: calc(100vh - 96px)
+    font-family: 'TTN'
+    &__container
+        box-sizing: border-box
+        position: relative
+        // height: calc(100vh - 126px)
+        
+    &__title
+        width: 100%
+        font-family: 'YesevaOne'
+        background-color: #DA1E1D
+        background-repeat: no-repeat
+        background-size: cover
+        // padding: 35px  55px 0
+        padding: 35px 60px 0 60px
+        h1
+            font-size: 36px 
+            color: #ffffff
+            margin-bottom: 50px
+        &::after
+            content: ''
+            position: absolute
+            left: 0
+            width: 100vw
+            height: 50px
+            background-image: url(../icons/line_red_img.svg)
+            background-repeat: no-repeat
+            background-size: cover
+    &__menu
+        display: flex
+        max-width: 840px
+        flex-wrap: wrap
+        font-family: 'TTN'
+        font-weight: bold
+        .menu
+            &__item
+                margin-right: 70px
+                width: 210px
+                padding: 10px 0 10px 20px
+                box-sizing: border-box
+                
+                &:hover
+                    a
+                        color: #FFC300
+                &_active
+                    background-image: url('../icons/button_yellow.svg')
+                    background-repeat: no-repeat
+                    background-size: contain
+                    background-position: center
+                    a
+                        color: #DA1E1D
+                    &:hover
+                        a
+                            color: #DA1E1D
+
+            &__link
+                color: #ffffff
+                transition: color .3s ease
+    &__content
+        margin-top: 50px
+        .content
+
+            &__list
+                .list
+                                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // url(../icons/bg_red.svg)
