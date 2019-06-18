@@ -17,7 +17,7 @@
         h1
             font-size: 36px 
             color: #ffffff
-            margin-bottom: 50px
+            margin-bottom: 30px
         &::after
             content: ''
             position: absolute
@@ -58,12 +58,50 @@
                 color: #ffffff
                 transition: color .3s ease
     &__content
-        margin-top: 50px
+        margin-top: 90px
+        position: relative
         .content
 
             &__list
+                max-width: 900px
                 .list
-                                
+                    &__title
+                        max-width: 500px
+                        text-align: left
+                        margin: 0 auto    
+                        font-weight: bold
+                        margin-top: 30px
+                        position: relative
+                        &:first-child
+                            margin-top: 0
+                        &::before
+                            content: ''
+                            position: absolute
+                            width: 13px
+                            height: 13px
+                            background-image: url(../icons/il.svg)
+                            background-repeat: no-repeat
+                            background-size: contain
+                            background-position: center
+                            left: -25px
+                        &_sec
+                            &::before
+                                transform: rotate(270deg)
+                        &_third
+                            &::before
+                                transform: rotate(180deg)
+                    &__item
+                        font-size: 14px
+                        font-weight: normal
+                        margin: 10px 0
+        .main__btn
+            position: absolute
+            top: 0
+        .btn__prev
+
+        .btn__next
+            right: 10px
+
                 
 
 
