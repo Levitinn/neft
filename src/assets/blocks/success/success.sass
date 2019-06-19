@@ -1,0 +1,175 @@
+.success
+    height: calc(100vh - 96px)
+    font-family: 'TTN'
+    &__container
+        box-sizing: border-box
+        position: relative
+        padding: 0 60px 0 60px
+        // height: calc(100vh - 126px)
+        
+    &__board
+        width: 100%
+        height: 173px
+        font-family: 'YesevaOne'
+        background-color: #DA1E1D
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 35px 0 0 0
+        h1
+            font-size: 36px 
+            color: #ffffff
+        
+        .main-btn__block
+            position: relative
+        .main__btn
+            position: absolute
+            top: 65px
+            font-family: 'TTN'
+            font-weight: bold
+            
+        .btn__prev
+            left: 70px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                background-image: url(../icons/prev.svg)
+                color: #000
+                background-repeat: no-repeat
+                left: -30px
+                top: -8px
+        .btn__next
+            left: 875px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                color: #000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: 100%
+                background-image: url(../icons/next.svg)
+                top: -8px
+                right: -30px
+    
+    .board__wave
+            content: ""
+            display: block
+            width: 100vw
+            height: 50px
+            background-image: url(../icons/line_red_img.svg)
+            background-repeat: no-repeat
+            background-size: cover
+    &__item
+        display: flex
+        margin-right: 50px
+        .item
+
+            &__image
+                width: 120px
+                height: 120px
+                background-image: url('../images/history_img001.png')
+                background-repeat: no-repeat
+                background-size: cover
+                background-position: center
+                margin-right: 35px
+            &__name
+                font-size: 18px
+                font-weight: bold
+                color: #d80600
+                margin-bottom: 5px
+            &__position
+                font-size: 12px
+                font-weight: 500
+                color: #4a4a4a
+                margin-bottom: 10px
+            &__text
+                max-width: 336px
+                font-weight: bold
+                line-height: 22px
+                font-size: 14px
+                color: #4a4a4a
+                margin-bottom: 20px
+            &__more
+                width: 100%
+                max-width: 180px
+                color: #000000
+                font-weight: bold
+                text-align: center
+                display: inline-block
+                background-image: url('../icons/button_wight.svg')
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center
+                padding: 10px 0
+                position: relative
+               
+    &__slider
+        display: flex
+        flex-direction: column
+        margin-top: 50px
+    &__wrap
+        display: flex
+        flex-direction: row
+        justify-content: center
+        &_top
+            padding-right: 150px
+            .success__item
+                .item__image   
+                    position: relative 
+                    &::after
+                        content: ''
+                        position: absolute
+                        width: 3px
+                        height: 56px
+                        background-image: url('../icons/success__item-line.svg')
+                        background-repeat: no-repeat
+                        background-position: center
+                        background-size: cover
+                        bottom: -65px
+                        left: 50%
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 23px
+                        height: 23px
+                        background-color: #da1e1d
+                        border-radius: 50%
+                        bottom: -95px
+                        left: calc(50% - 9px)
+
+        &_bottom
+            padding-left: 300px
+            .success__item
+                .item__image   
+                    position: relative 
+                    &::after
+                        content: ''
+                        position: absolute
+                        width: 3px
+                        height: 56px
+                        background-image: url('../icons/success__item-line.svg')
+                        background-repeat: no-repeat
+                        background-position: center
+                        background-size: cover
+                        top: -60px
+                        left: 50%
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 23px
+                        height: 23px
+                        background-color: #da1e1d
+                        border-radius: 50%
+                        top: -84px
+                        left: calc(50% - 9px)
+
+
+    &__line
+        width: 100%
+        height: 6px
+        background-color: #d6b5b9
+        margin-bottom: 70px
+        margin-top: 40px

@@ -1,0 +1,115 @@
+.advantages
+    height: calc(100vh - 96px)
+    font-family: 'TTN'
+    &__container
+        box-sizing: border-box
+        position: relative
+        padding: 0 60px 0 60px
+        // height: calc(100vh - 126px)
+        
+    &__board
+        width: 100%
+        font-family: 'YesevaOne'
+        background-color: #DA1E1D
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 35px 0 0 0
+        
+        h1
+            font-size: 36px 
+            color: #ffffff
+            margin-bottom: 30px
+            
+        
+        .main-btn__block
+            position: relative
+        .main__btn
+            position: absolute
+            top: 65px
+            font-family: 'TTN'
+            font-weight: bold
+            
+        .btn__prev
+            left: 70px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                background-image: url(../icons/prev.svg)
+                color: #000
+                background-repeat: no-repeat
+                left: -30px
+                top: -8px
+        .btn__next
+            left: 875px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                color: #000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: 100%
+                background-image: url(../icons/next.svg)
+                top: -8px
+                right: -30px
+    
+    .board__wave
+            content: ""
+            display: block
+            width: 100vw
+            height: 50px
+            background-image: url(../icons/line_red_img.svg)
+            background-repeat: no-repeat
+            background-size: cover
+    .board__menu
+        display: flex
+        max-width: 1020px
+        flex-wrap: wrap
+        font-family: 'TTN'
+        font-weight: bold
+        .menu
+            &__item
+                margin-right: 70px
+                width: 270px
+                padding: 10px 0 10px 20px
+                box-sizing: border-box
+                
+                &:hover
+                    a
+                        color: #FFC300
+                &_active
+                    background-image: url('../icons/button_yellow.svg')
+                    background-repeat: no-repeat
+                    background-size: 100% 100%
+                    background-position: center
+                    a
+                        color: #DA1E1D
+                    &:hover
+                        a
+                            color: #DA1E1D
+
+            &__link
+                color: #ffffff
+                transition: color .3s ease  
+    &__content
+        height: calc(100vh - 367px)
+        background-image: url('../images/bg__adv.png')
+        background-repeat: no-repeat
+        background-position: left bottom
+        background-size: cover
+        padding-top: 100px
+        .content
+            &__wrap
+                max-width: 675px
+                margin-left: 215px
+
+            &__title
+                font-weight: bold
+                margin-bottom: 30px
+            &__text
+                .text__point
+                    line-height: 1.2em
+                    margin: 15px 0

@@ -6,7 +6,7 @@
         position: relative
         // height: calc(100vh - 126px)
         
-    &__title
+    &__board
         width: 100%
         font-family: 'YesevaOne'
         background-color: #DA1E1D
@@ -27,7 +27,7 @@
             background-image: url(../icons/line_red_img.svg)
             background-repeat: no-repeat
             background-size: cover
-    &__menu
+    .board__menu
         display: flex
         max-width: 840px
         flex-wrap: wrap
@@ -64,6 +64,7 @@
 
             &__list
                 max-width: 900px
+                position: relative
                 .list
                     &__title
                         max-width: 500px
@@ -98,9 +99,32 @@
             position: absolute
             top: 0
         .btn__prev
-
+            left: 70px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                background-image: url(../icons/prev.svg)
+                color: #000
+                background-repeat: no-repeat
+                left: -30px
+                top: -8px
         .btn__next
-            right: 10px
+            right: 150px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                color: #000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: 100%
+                background-image: url(../icons/next.svg)
+                top: -8px
+                right: -30px
+            
 
                 
 
