@@ -1,0 +1,11 @@
+
+Open SVG
+Paste markup
+Demo
+Contribute
+About
+Powered by the incredible SVGO
+
+
+1.03k → 219 bytes 20.76%
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="183"><path d="M26.407 1.397C7.62 84.708-32.368 179.438 60.801 180.833c89.047 1.333 143.78 1.333 164.199 0" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="29" stroke-linecap="round"/></svg>

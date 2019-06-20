@@ -1,7 +1,9 @@
 //=include ../blocks/header/header.js
 //=include ../blocks/history/history.js
-//=include ../blocks/contacts/contacts-info.js
-//=include ../blocks/vacancy/vacancy.js
+////=include ../blocks/contacts/contacts-info.js
+////=include ../blocks/vacancy/vacancy.js
+//=include ../blocks/study/study.js
+//=include ../blocks/success/success.js
 
 
 $(document).ready(function () {
@@ -16,5 +18,10 @@ $(document).ready(function () {
      
         $(".main__invite").toggleClass("main__invite-active");    
     });
-    
+    if ($('.study__slider')){
+        checkCurrentSlide();
+
+    }
+    history()
+    success()
 })
