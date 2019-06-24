@@ -12,29 +12,89 @@
         padding-left: 60px
         box-sizing: border-box
 
-    &__pagination
-        position: absolute
-        top: 50%
-        .pagination
+    // &__pagination
+    //     position: absolute
+    //     top: 50%
+        // .pagination
             
             &__item
-                font-size: 13px
-                font-weight: bold
+                // font-size: 13px
+                // font-weight: bold
+                // background-repeat: no-repeat
+                // background-size: 75px 25px
+                // text-align: left
+                // padding-left: 10px
+                // line-height: 25px
+                // width: 75px
+                // height: 29px
+                // position: relative
+                // margin: 30px 0
+                // cursor: pointer
+                // background-image: url('../icons/button_wight.svg')
+                // // background-position: -100px
+                // background-size: 0% 0%
+                // transition: background-position .3s ease-in-out, background-size .3s ease-in-out
+                // &_active
+                //     transition: background-size .3s ease
+                //     background-image: url('../icons/button_wight.svg')
+                //     // background-position: center
+                //     background-size: 100% 80%
+                //     transition: background-position .3s ease-in-out, background-size .3s ease-in-out
+                    
+                    
+                //     &::before
+                //         background-color: rgb(216,6,0) !important
+                // &:hover
+                //     &::before
+                //         content: ''
+                //         position: absolute
+                //         width: 10px
+                //         height: 10px
+                //         border-radius: 50%
+                //         background-color: rgb(216,6,0) !important
+                //         // background-color: #ffffff
+                //         right: 18px
+                //         bottom: 11px
+                //         transition: all .3s ease-in-out 
+                // &::before
+                //     content: ''
+                //     position: absolute
+                //     width: 10px
+                //     height: 10px
+                //     border-radius: 50%
+                //     background-color: #ffffff
+                //     right: 18px
+                //     bottom: 11px
+                // &::after
+                //     content: ''
+                //     position: absolute
+                //     width: 6px
+                //     height: 6px
+                //     border-radius: 50%
+                //     background-color: rgb(216,6,0)
+                //     right: 20px
+                //     bottom: 13px
+
+
+    &__slider
+        width: 100%
+        max-width: 810px
+        margin-top: 150px
+        position: relative
+        .slick-dots
+            position: absolute
+            top: 10%
+            &::before
+                content: ''
+                position: absolute
+                background-image: url('../icons/img012.svg')
                 background-repeat: no-repeat
-                background-size: 75px 25px
-                text-align: left
-                padding-left: 10px
-                line-height: 25px
-                width: 75px
-                height: 29px
-                position: relative
-                margin: 30px 0
-                cursor: pointer
-                background-image: url('../icons/button_wight.svg')
-                // background-position: -100px
-                background-size: 0% 0%
-                transition: background-position .3s ease-in-out, background-size .3s ease-in-out
-                &_active
+                background-size: contain
+                width: 100px
+                height: 65px
+                left: -60px
+                top: -25px
+            .slick-active
                     transition: background-size .3s ease
                     background-image: url('../icons/button_wight.svg')
                     // background-position: center
@@ -44,6 +104,44 @@
                     
                     &::before
                         background-color: rgb(216,6,0) !important
+            li
+                font-size: 14px
+                font-weight: bold
+                background-repeat: no-repeat
+                background-size: 75px 25px
+                text-align: left
+                padding-left: 10px
+                line-height: 25px
+                width: 75px
+                height: 29px
+                position: relative
+                margin: 40px 0
+                cursor: pointer
+                background-image: url('../icons/button_wight.svg')
+                // background-position: -100px
+                background-size: 0% 100%
+                transition: background-position .3s ease-in-out, background-size .3s ease-in-out
+                
+                button
+                    border: none
+                    background-color: transparent
+                    outline: none
+                    position: relative
+                    &::after
+                        content: ''
+                        position: absolute
+                        background-image: url(../icons/line_wight_history.svg)
+                        background-repeat: no-repeat
+                        background-size: contain
+                        width: 3px
+                        height: 45px
+                        bottom: -50px
+                        left: 60%
+                &:last-child
+                    button
+                        &::after
+                            display: none
+                
                 &:hover
                     &::before
                         content: ''
@@ -75,12 +173,6 @@
                     right: 20px
                     bottom: 13px
 
-
-    &__slider
-        width: 100%
-        max-width: 810px
-        margin-top: 260px
-        position: relative
         &::before
             width: 100%
             height: 135px

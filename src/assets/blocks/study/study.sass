@@ -5,25 +5,115 @@
     background-position: bottom
     background-attachment: fixed
     background-size: contain
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 100px
+        background-image: url(../icons/img022.svg)
+        background-repeat: no-repeat
+        background-size: cover
 
     &__container
-        padding: 0 60px
+        // padding: 0 60px
+        
     &__title
         font-size: 36px
         max-width: 700px
         font-family: 'YesevaOne'
         color: #da1e1d
+        margin-top: 40px
+        padding-left: 60px
     &__slider
         // max-width: 50vw
         max-width: 1200px
-
+        margin-top: 50px
+        margin-left: -150px
+        .slick-track
+            
+            padding-bottom: 50px
+        .slick-arrow
+            width: 0
+            padding: 0
+            position: absolute
+            top: -45px
+        .slick-prev
+            color: transparent
+            border: none
+            padding: 0
+            outline: none
+            cursor: pointer
+            background-color: transparent
+            left: 210px
+            &::before
+                content: "Назад"
+                color: #000
+                position: absolute
+                font-weight: 700
+                left: 30px
+                top: 22px
+                font-size: 15px
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                background-image: url(../icons/prev.svg)
+                color: #000
+                background-repeat: no-repeat
+                left: 0
+                top: 15px
+        .slick-next
+            color: transparent
+            border: none
+            padding: 0
+            outline: none
+            cursor: pointer
+            background-color: transparent
+            right: 210px
+            &::before
+                content: "Вперед"
+                position: absolute
+                color: #000
+                top: 25px
+                right: 20px
+                font-size: 15px
+                font-weight: 700
+            &::after
+                width: 31px
+                height: 32px
+                position: absolute
+                content: ""
+                color: #000
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: 100%
+                background-image: url(../icons/next.svg)
+                top: 20px
+                left: -20px
         .item
             display: flex
             justify-content: center
             opacity: .6
             transform: scale(.8)
             transition: opacity .3s ease, transform .3s ease
-            
+            position: relative
+            counter-reset: slick-slide
+            &::after
+                counter-increment: slick-slide
+                content: counter(slick-slide)    
+                width: 55px
+                height: 55px
+                font-size: 24px
+                font-weight: bold
+                color: #ffffff
+                background-color: #da1e1d
+                border-radius: 50%
+                line-height: 55
+                position: absolute
+                bottom: -50px
+                left: calc(50% - 23px)
+
             &__wrap
                 width: 390px !important
                 height: 510px   
